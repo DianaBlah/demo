@@ -40,7 +40,7 @@ public class MainPageTest {
 
         String input = "Test";
         System.out.println("Текст: " + input);
-        //clickMagnifyingGlass();
+        clickMagnifyingGlass();
 
 
         $("[data-test='search-input']").sendKeys("Test");
